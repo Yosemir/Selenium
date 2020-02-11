@@ -1,0 +1,120 @@
+{
+  "id": "93c95a78-699a-4436-b503-5ee29474d4b2",
+  "version": "2.0",
+  "name": "Asistencia",
+  "url": "http://sistemas.vallegrande.edu.pe",
+  "tests": [{
+    "id": "7fcd1583-c068-4a44-a3e4-5de1d229c302",
+    "name": "Untitled",
+    "commands": [{
+      "id": "7f9c45ad-c8d3-4c5e-8771-c2a9bec4b5f5",
+      "comment": "",
+      "command": "open",
+      "target": "/Asistencias/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9401058a-2311-4c21-8d9c-91ebfeecf626",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1259x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a916797e-82e2-452a-bbf2-80246591c876",
+      "comment": "",
+      "command": "click",
+      "target": "id=form:user",
+      "targets": [
+        ["id=form:user", "id"],
+        ["name=form:user", "name"],
+        ["css=#form\\3Auser", "css:finder"],
+        ["xpath=//input[@id='form:user']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87d6e267-64e3-419b-b956-7acc6812838a",
+      "comment": "",
+      "command": "type",
+      "target": "id=form:user",
+      "targets": [
+        ["id=form:user", "id"],
+        ["name=form:user", "name"],
+        ["css=#form\\3Auser", "css:finder"],
+        ["xpath=//input[@id='form:user']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "70398731"
+    }, {
+      "id": "075da8ea-7429-45bd-8ead-b746edaeb467",
+      "comment": "",
+      "command": "type",
+      "target": "id=form:pass",
+      "targets": [
+        ["id=form:pass", "id"],
+        ["name=form:pass", "name"],
+        ["css=#form\\3Apass", "css:finder"],
+        ["xpath=//input[@id='form:pass']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[3]/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/span/input", "xpath:position"]
+      ],
+      "value": "demo"
+    }, {
+      "id": "58eed3a7-61b6-4389-a481-3abb353aa368",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ui-button-text",
+      "targets": [
+        ["css=.ui-button-text", "css:finder"],
+        ["xpath=//button[@id='form:btnlogin']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "512fe326-05cd-4fec-8fe9-1c12f6879ec6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button-text",
+      "targets": [
+        ["css=.ui-button-text", "css:finder"],
+        ["xpath=//button[@id='form:btnlogin']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e0ef65b-2fe6-4609-aec0-262d45065931",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ui-button-text",
+      "targets": [
+        ["css=.ui-button-text", "css:finder"],
+        ["xpath=//button[@id='form:btnlogin']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5647e8c8-1f04-4ab1-9c5a-e5a19e2d7855",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c25fd32c-3812-45e7-8f22-3e5f6fc20ffc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7fcd1583-c068-4a44-a3e4-5de1d229c302"]
+  }],
+  "urls": ["http://sistemas.vallegrande.edu.pe/"],
+  "plugins": []
+}
