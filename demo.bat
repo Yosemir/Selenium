@@ -1,0 +1,1 @@
+start selenium-side-runner Asistencia.side
