@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        bat 'selenium-side-runner Asistencia.side'
+        bat 'demo.bat'
       }
     }
 
