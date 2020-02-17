@@ -32,7 +32,7 @@ public class userTest {
 
     @Test
     public void google() throws IOException {
-        WebElement busqueda = web.findElement(By.name(""));
+        WebElement busqueda = web.findElement(By.name("q"));
         busqueda.sendKeys("Youtube");
         WebElement btn = web.findElement(By.id("tsf"));
         btn.click();
